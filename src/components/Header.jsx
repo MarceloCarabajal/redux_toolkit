@@ -6,9 +6,9 @@ const Header = () => {
     <header>
         <h1>Redux Toolkit Example</h1>
         <ul>
-            <li>Name: </li>
+            <li>Name: {user.name} </li>
             <li>Email: {user.email} </li>
-            <li>Username: </li>
+            <li>Username: {user.username}</li>
         </ul>
     </header>
   )

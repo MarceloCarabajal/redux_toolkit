@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import { useDispatch } from "react-redux"
 import { addUser } from "./redux/userSlice"
 import Header from "./components/Header"
-import Email from "./components/Email"
+import {Email} from "./components/Email"
 
 function App() {
   const dispatch = useDispatch()
